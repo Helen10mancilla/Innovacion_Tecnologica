@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: #0e0e0e;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* CONTENEDOR */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 120px 20px;
+}
+
+/* HERO */
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.hero span {
+  color: #ffc400;
+}
+
+.hero p {
+  margin-top: 30px;
+  font-size: 1.3rem;
+  max-width: 600px;
+  color: #bdbdbd;
+}
+
+/* CTA */
+.cta {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 18px 45px;
+  background: #ffc400;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* SECCIONES */
+.section h2 {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.section p {
+  max-width: 700px;
+  color: #bdbdbd;
+  font-size: 1.2rem;
+}
+
+/* PROYECTOS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.project {
+  border-left: 4px solid #ffc400;
+  padding-left: 20px;
+}
+
+.project h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+  padding: 60px 20px;
+  text-align: center;
+  color: #777;
+  font-size: 0.95rem;
+}
